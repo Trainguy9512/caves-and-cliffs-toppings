@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.trainguy.ccworldgen.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinBaseStoneSource",
+    "MixinConfiguredSurfaceBuilder",
+    "MixinLakeFeature",
+    "MixinOreFeature",
+    "MixinOreVeinifier",
+    "MixinWorldCarver"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

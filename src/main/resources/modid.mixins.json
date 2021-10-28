@@ -4,12 +4,11 @@
   "package": "com.trainguy.ccworldgen.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "MixinBaseStoneSource",
-    "MixinConfiguredSurfaceBuilder",
-    "MixinLakeFeature",
-    "MixinOreFeature",
-    "MixinOreVeinifier",
-    "MixinWorldCarver"
+    "MixinBiomeDefaultFeatures",
+    "MixinDebugScreenOverlay",
+    "MixinMineshaftCorridor",
+    "MixinMineshaftFeatureStart",
+    "MixinVanillaBiomes"
   ],
   "client": [
   ],

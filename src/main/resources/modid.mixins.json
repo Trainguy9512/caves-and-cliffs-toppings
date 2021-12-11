@@ -4,11 +4,7 @@
   "package": "com.trainguy.ccworldgen.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "MixinBiomeDefaultFeatures",
-    "MixinDebugScreenOverlay",
-    "MixinMineshaftCorridor",
-    "MixinMineshaftFeatureStart",
-    "MixinVanillaBiomes"
+    "MixinBiomeDefaultFeatures"
   ],
   "client": [
   ],
